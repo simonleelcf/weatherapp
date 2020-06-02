@@ -11,7 +11,7 @@ function Navigation(props) {
                 <button className="search-btn" onClick={() => props.handleSearch(props.input)}><i className="fa fa-search"></i></button>
 
                 <button className="temp-switch" onClick={props.toggleUnit}>
-                    <i
+                    <i                          
                     className="fa fa-thermometer-empty"
                     aria-hidden="true"
                     ></i>
